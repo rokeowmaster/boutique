@@ -22,7 +22,8 @@ const ContactPage = () => {
         </div>
         <div className="flex items-center gap-4 bg-gray-100 p-6 rounded-lg shadow-md">
           <MapPin className="w-8 h-8 text-orange-500" />
-          <p className="text-gray-800 text-lg">Kenya</p>
+          <p className="text-gray-800 text-lg">
+            Kenya</p>
         </div>
       </div>
 
