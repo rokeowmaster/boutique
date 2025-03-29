@@ -6,7 +6,7 @@ const Footer = () => {
 
     const handleClick = () => {
         if (typeof window !== "undefined") {
-            window.open(`https://wa.me/${+254703628177}?text=${encodeURIComponent(message)}`, "_blank");
+            window.open(`https://wa.me/${+254758490103}?text=${encodeURIComponent(message)}`, "_blank");
         }
     };
 
