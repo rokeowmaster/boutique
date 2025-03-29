@@ -40,6 +40,7 @@ const product = {
                 { title: "Ladies", value: "ladies" },
                 { title: "Gentlemen", value: "gentlemen" },
                 { title: "Accessories", value: "accessories" },
+                { title: "Shoes", value: "shoes" },
             
             ],
         },

@@ -71,7 +71,7 @@ const Cart = () => {
                   <h3 className="text-lg font-medium text-gray-200">
                     {item.productName}
                   </h3>
-                  <p className="text-gray-400">${(Number(item.productPrice) || 0).toFixed(2)}</p>
+                  <p className="text-gray-400">Kshs. {(Number(item.productPrice) || 0).toFixed(2)}</p>
                 </div>
                 <div className="flex items-center gap-3">
                   <button
@@ -104,7 +104,7 @@ const Cart = () => {
           <div className="mt-6 font-semibold text-xl border-t border-gray-700 pt-4">
             <div className="flex justify-between">
               <span className="text-gray-100">Total:</span>
-              <span className="text-gray-100">${getTotal().toFixed(2)}</span>
+              <span className="text-gray-100">Kshs. {getTotal().toFixed(2)}</span>
             </div>
             <button
               className="mt-4 w-full bg-green-600 text-white text-lg font-bold py-3 rounded-md hover:bg-green-700 transition"

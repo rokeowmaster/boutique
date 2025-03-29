@@ -7,6 +7,7 @@ const categories = [
   { name: "Accessories", image: "/access.jpg" },
   { name: "Ladies", image: "/ladies.jpg" },
   { name: "Gentlemen", image: "/gents.jpg" },
+  { name: "Shoes", image: "/shoes.jpeg" },
 ];
 
 const Categories = () => {
